@@ -276,8 +276,6 @@ All communication uses a custom **binary protocol** defined in `protocol.py`.
     </td>
   </tr>
 </table>
-
-
 ```
 
 ```
