@@ -256,6 +256,28 @@ All communication uses a custom **binary protocol** defined in `protocol.py`.
 3. **Receive `PKT_CHECKSUM`:** Reconstructs the file bytes by ordering the chunks. Computes the SHA-1 hash of the assembled data and compares it to the received hash.
 4. **Finalize:** If the checksums match, the file is saved to the `server-storage` directory. If they differ, the file is discarded with a warning.
 
+---
+
+## Authors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/GabrielCraco">
+        <img src="https://github.com/GabrielCraco.png" width="80px" alt="Gabriel Craco Tasarz"/><br/>
+        <sub><b>Gabriel Craco Tasarz</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/leonardoozima">
+        <img src="https://github.com/leonardoozima.png" width="80px" alt="Leonardo Jun'Ity Ozima"/><br/>
+        <sub><b>Leonardo Jun'Ity Ozima</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 ```
 
 ```
